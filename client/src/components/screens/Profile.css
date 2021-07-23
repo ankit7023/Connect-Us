@@ -1,0 +1,30 @@
+.profile_page {
+    max-width: 550px;
+    margin: 0px auto;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.profile_img {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+}
+.follow_details {
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+}
+.my_posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.post_items {
+    width: 30%;
+}
