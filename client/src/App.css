@@ -35,6 +35,10 @@ a{
    left: auto !important;
  }
  
+.collecttion-item {
+  width: 100%;
+}
+
 .material-icons:hover{
   cursor: pointer;
 }
