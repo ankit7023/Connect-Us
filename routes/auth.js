@@ -55,7 +55,7 @@ router.post("/signup", (req, res) => {
                      to:user.email,
                      from:"no-reply@insta.com",
                      subject:"signup success",
-                     html:"<h1>welcome to instagram</h1>"
+                     html:"<h1>Welcome to Connect Us</h1>"
                  })
             res.json({
               message: "saved Sucessfully"
